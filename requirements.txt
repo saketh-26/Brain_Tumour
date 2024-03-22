@@ -1,4 +1,4 @@
 streamlit
 ultralytics
 bcrypt
-opencv-contrib-python
+opencv-python
