@@ -1,3 +1,6 @@
 streamlit
 ultralytics
 bcrypt
+opencv-python-headless
+torch
+torchvision
