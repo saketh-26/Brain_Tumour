@@ -233,30 +233,3 @@ if __name__=='__main__':
             st.session_state.auth_status = "logged_out"
             del st.session_state.username
             st.rerun()
-
-
-
-
-
-
-
-# # Main app flow
-# if 'current_page' not in st.session_state:
-#     st.session_state['current_page'] = 'signup'
-
-# if 'logged_in' not in st.session_state:
-#     st.session_state['logged_in'] = False
-
-# if st.session_state.get('current_page') == 'signup' and not st.session_state.get('logged_in', False):
-#     show_signup()
-    
-
-# elif st.session_state.get('current_page') == 'login' and not st.session_state.get('logged_in', False):
-#     show_login()
-    
-
-# elif st.session_state.get('logged_in', False):
-#     show_yolo_model()
-#     if st.button('Logout'):
-#         st.session_state['logged_in'] = False
-#         st.rerun()
