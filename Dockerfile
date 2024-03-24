@@ -3,7 +3,7 @@
 FROM python:3.10-slim
 
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /new_app
 
 # Install system dependencies required for OpenCV
 RUN apt-get update && \
@@ -11,7 +11,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Copy the current directory contents into the container at /app
-COPY . /app
+COPY . /new_app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
