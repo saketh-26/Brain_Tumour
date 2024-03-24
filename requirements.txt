@@ -2,3 +2,4 @@ streamlit
 opencv-python-headless
 ultralytics==8.0.196
 bcrypt
+pandas
